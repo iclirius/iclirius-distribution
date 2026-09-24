@@ -1,3 +1,15 @@
+## v1.0.0-rc.32
+
+Secure discovery readiness candidate. A live TLS listener with a failed Bonjour publisher is now reported as DEGRADED with a bounded failure reason, and Doctor/repair expose the issue. Runtime state roots are propagated consistently. Physical CLUSTER-3 acceptance remains pending.
+
+Source revision: `3cee4c0ef05143b317c3449b2217190fd980e1de`
+
+Artifact: `iclirius-1.0.0-rc.32.tar.gz`
+SHA-256: `f63fbe86293f0e280981ab36da0be01ef7206bc4eef3d06c1948e8075112aedc`
+
+Wheel: `iclirius_openclaw-1.0.0rc32-py3-none-any.whl`
+SHA-256: `8d2d8f0f83fb3f522811adb75ab6c2ca9ac8d914c1a91dc94b3492b3ba6bc137`
+
 ## v1.0.0-rc.31
 
 Managed secure Bonjour lifecycle. RC30 physical validation found that the TLS listener could be live while launchd failed to publish `_iclirius._tcp.local.` because `dns-sd` was resolved only through the shell PATH. RC31 resolves the system tool explicitly, owns publisher lifecycle with the secure listener, and adds bounded mobility diagnostics. Physical CLUSTER-3 acceptance remains pending.
