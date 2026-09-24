@@ -1,3 +1,16 @@
+## v1.0.0-rc.36
+
+Bonjour resolution output preservation. `dns-sd -L` may print a complete
+resolution and remain alive until interrupted; RC36 preserves that bounded
+output instead of falling back to the service instance name. Multi-node
+physical discovery remains pending.
+
+Source revision: `f2cb8a6d8fbcb1c1356c5350c405a34c448e55c7`
+
+Artifacts:
+- `iclirius-1.0.0-rc.36.tar.gz` — SHA-256: `df7a9d1073cf1fe7014fe787674db5f6843f9ab3f1379a943ebf4c757938d773`
+- `iclirius_openclaw-1.0.0rc36-py3-none-any.whl` — SHA-256: `fbeb220b405c16d9ef59b2797a969e83a36e7b85882d02e97abd15d0e9b7ee71`
+
 ## v1.0.0-rc.35
 
 Production Bonjour discovery correction. The browse parser now recognizes
