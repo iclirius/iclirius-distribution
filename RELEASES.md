@@ -1,3 +1,16 @@
+## v1.0.0-rc.35
+
+Production Bonjour discovery correction. The browse parser now recognizes
+macOS `_iclirius._tcp.` registration records, and shortened TXT fingerprints
+remain non-authoritative hints before pinned Ed25519 TLS verification. Final
+CLUSTER-3 physical acceptance remains pending until both Macs are retested.
+
+Source revision: `3a23ce2ffd4459251e5000381bd0bcb109e2e87c`
+
+Artifacts:
+- `iclirius-1.0.0-rc.35.tar.gz` — SHA-256: `8bc8f3875f586f733f45afbdfc5df479f995aa960f7aca432f1b17a6a039301a`
+- `iclirius_openclaw-1.0.0rc35-py3-none-any.whl` — SHA-256: `44294249dce10760dba09d63476ca986ed931ae8627e5e94c2a2ad952c9a3e4a`
+
 ## v1.0.0-rc.34
 
 Managed service migration and repair recovery. Validates and atomically
