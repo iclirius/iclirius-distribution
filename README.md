@@ -6,5 +6,5 @@ The Iclirius source repository remains private.
 Each release asset is built from a tagged source commit, scanned for secrets
 and private machine state, and published with a SHA-256 checksum.
 
-Current candidate: `1.0.0-rc.30`, built from source revision
-`f802542b68b472a85204f0bd3dc54e938a50c1b0`.
+Current candidate: `1.0.0-rc.31`, built from source revision
+`9768123033f4ca84a4e79597482cfe8334ce422f`.

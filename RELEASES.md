@@ -1,3 +1,15 @@
+## v1.0.0-rc.31
+
+Managed secure Bonjour lifecycle. RC30 physical validation found that the TLS listener could be live while launchd failed to publish `_iclirius._tcp.local.` because `dns-sd` was resolved only through the shell PATH. RC31 resolves the system tool explicitly, owns publisher lifecycle with the secure listener, and adds bounded mobility diagnostics. Physical CLUSTER-3 acceptance remains pending.
+
+Source revision: `9768123033f4ca84a4e79597482cfe8334ce422f`
+
+Artifact: `iclirius-1.0.0-rc.31.tar.gz`
+SHA-256: `82532cf184f846474e05c5fa97ac191276a38d781a9de046cd10f80290272ea8`
+
+Wheel: `iclirius_openclaw-1.0.0rc31-py3-none-any.whl`
+SHA-256: `40b3fbdb92539033ec002cbb191c3326beb0074a764cdc661ddc23fc1b0cb74f`
+
 ## v1.0.0-rc.30
 
 CLI discovery dispatch fix. RC29's endpoint-mobility import shadowed the
