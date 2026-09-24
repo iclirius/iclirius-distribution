@@ -1,3 +1,16 @@
+## v1.0.0-rc.34
+
+Managed service migration and repair recovery. Validates and atomically
+regenerates LaunchAgents for source-checkout to Homebrew and Cellar upgrades,
+rejects test-derived log paths, and requires a live verified runtime before
+repair succeeds.
+
+Source revision: `f1b6486ddcacc1c4f695221d98a625cdcb27eb85`
+
+Artifacts:
+- `iclirius-1.0.0-rc.34.tar.gz` — SHA-256: `59aab7be0a90a09091a33c8951f803143f966c53aa1ecba4d6e0c0842b6c3137`
+- `iclirius_openclaw-1.0.0rc34-py3-none-any.whl` — SHA-256: `e6b2b5d35f808b630a5959c5f62c5b63ea35adba43875981440e85532463c3db`
+
 ## v1.0.0-rc.33
 
 Bonjour registration contract fix. The secure publisher now passes `_iclirius._tcp` as the native registration type and `local.` as its domain, matching macOS `dns-sd -R`. Startup diagnostics capture bounded native output when registration fails. Physical CLUSTER-3 acceptance remains pending.
