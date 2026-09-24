@@ -1,3 +1,15 @@
+## v1.0.0-rc.30
+
+CLI discovery dispatch fix. RC29's endpoint-mobility import shadowed the
+module-level `discover` binding and caused `node discover --json` to fail before
+discovery ran. RC30 fixes the production dispatch path while preserving
+authenticated trusted endpoint mobility.
+
+Source revision: `f802542b68b472a85204f0bd3dc54e938a50c1b0`
+
+Artifact: `iclirius-1.0.0-rc.30.tar.gz`
+SHA-256: `97c949009e77a78fdb3e5ca5ef8c929211d1ab8657d64b618ab608fca16e073f`
+
 ## v1.0.0-rc.29
 
 Trusted endpoint mobility candidate. A stale address for an already trusted
