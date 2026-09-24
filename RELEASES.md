@@ -1,3 +1,15 @@
+## v1.0.0-rc.33
+
+Bonjour registration contract fix. The secure publisher now passes `_iclirius._tcp` as the native registration type and `local.` as its domain, matching macOS `dns-sd -R`. Startup diagnostics capture bounded native output when registration fails. Physical CLUSTER-3 acceptance remains pending.
+
+Source revision: `64abcd44d90c7dd956ed237955947956eade4cc6`
+
+Artifact: `iclirius-1.0.0-rc.33.tar.gz`
+SHA-256: `7badff79b2d224b9732533fe3e43a6f6a6c6e69bd92a4ce1ba5c72d320abd96f`
+
+Wheel: `iclirius_openclaw-1.0.0rc33-py3-none-any.whl`
+SHA-256: `889b23744583e72a8854d3caeb81f84f56d0e40523f438b73f16d3a790fc82da`
+
 ## v1.0.0-rc.32
 
 Secure discovery readiness candidate. A live TLS listener with a failed Bonjour publisher is now reported as DEGRADED with a bounded failure reason, and Doctor/repair expose the issue. Runtime state roots are propagated consistently. Physical CLUSTER-3 acceptance remains pending.
