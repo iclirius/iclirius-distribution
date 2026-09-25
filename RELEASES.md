@@ -1,3 +1,16 @@
+## v1.0.0-rc.37
+
+CLUSTER-4.6 packaged real-cluster observability. Includes the normalized
+cluster-status CLI/TUI/Doctor projection and shared authenticated presence
+freshness projection. Mac A→Mac B passed from the source checkout; Mac B→Mac A
+requires physical validation after this Homebrew artifact is installed.
+
+Source revision: `7518c169dd1e908989d40f5ff0db331d34290593`
+
+Artifacts:
+- `iclirius-1.0.0-rc.37.tar.gz` — SHA-256: `f52daf87cf41b30a04b4fb1792e294a92f2fe2c91dd4e3d9de08c1ae4a8ac9c2`
+- `iclirius_openclaw-1.0.0rc37-py3-none-any.whl` — SHA-256: `d35e6caa21313067f15d730144913774dfa3323a969cc21bf24012a8884ecca7`
+
 ## v1.0.0-rc.36
 
 Bonjour resolution output preservation. `dns-sd -L` may print a complete
