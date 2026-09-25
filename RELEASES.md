@@ -1,3 +1,13 @@
+## v1.0.0-rc.39
+
+Pristine-node observability fix. Package installation and observational commands remain read-only on an unconfigured machine; identity, trust, membership, service, and runtime artifacts are created only by explicit lifecycle commands. RC38 remains immutable. Physical Mac C pristine retest is pending.
+
+Source revision: `68ea6c7a8949bfbdaf955f4d278a2adcb940536a`
+
+Artifacts:
+- `iclirius-1.0.0-rc.39.tar.gz` — SHA-256: `0efd317794f4697e5c7ad443ec3ad482db2b425a472081cf3d7b7c7a30cc087f`
+- `iclirius_openclaw-1.0.0rc39-py3-none-any.whl` — SHA-256: `661350ba318678d25cc66b292c5cdbed6ff237da721ef5c3f078de82e8dbe844`
+
 ## v1.0.0-rc.38
 
 CLUSTER-4.7 deterministic N-node simulation package for CLUSTER-4.8 physical preparation. Includes the canonical trusted-node ordering correction from `6aa4fff`; RC37 remains immutable. No physical enrollment or third-Mac state is included.
