@@ -1,3 +1,13 @@
+## v1.0.0-rc.38
+
+CLUSTER-4.7 deterministic N-node simulation package for CLUSTER-4.8 physical preparation. Includes the canonical trusted-node ordering correction from `6aa4fff`; RC37 remains immutable. No physical enrollment or third-Mac state is included.
+
+Source revision: `42756be301bef8b1972c37b702e6b0e2b6ec040e`
+
+Artifacts:
+- `iclirius-1.0.0-rc.38.tar.gz` — SHA-256: `3e7c9e5da6ff94c0cdc71025ecbeaa9fb8cf2192853b35fa5221444e2dc6b985`
+- `iclirius_openclaw-1.0.0rc38-py3-none-any.whl` — SHA-256: `40bb2d1a8641b21f79a5b15149f579dbb8b06d2fda781a75f524cef93c4eeb78`
+
 ## v1.0.0-rc.37
 
 CLUSTER-4.6 packaged real-cluster observability. Includes the normalized
